@@ -2,7 +2,7 @@
   "type": "record",
   "namespace": "com.company",
   "name": "Customer",
-  "doc": "Unique Schema to be used in the evolution part.",
+  "doc": "first exercise of the course, where you have to define a schema",
   "fields": [
     {
       "name": "first_name",

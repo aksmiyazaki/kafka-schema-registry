@@ -2,7 +2,7 @@
   "type": "record",
   "namespace": "com.company",
   "name": "Customer",
-  "doc": "Unique Schema to be used in the evolution part.",
+  "doc": "First version of the schema, that is meant to be fully compatible",
   "fields": [
     {
       "name": "first_name",

@@ -1,8 +1,8 @@
 {
   "type": "record",
   "namespace": "com.company",
-  "name": "Customer",
-  "doc": "Unique Schema to be used in the evolution part.",
+  "name": "CustomerV2",
+  "doc": "Second version of the schema, that is meant to be fully compatible",
   "fields": [
     {
       "name": "first_name",
@@ -30,10 +30,16 @@
       "doc": "Weight of the customer in Kgs"
     },
     {
-      "name": "is_automatic_email_on",
-      "type": "boolean",
-      "doc": "True if the customer wants automated emails",
-      "default": true
+      "name": "phone_number",
+      "type": ["null", "string"],
+      "doc": "Optional Phone number",
+      "default": null
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "doc": "Optional Phone number",
+      "default": "missing@example.com"
     }
   ]
 }
